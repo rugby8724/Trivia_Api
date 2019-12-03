@@ -104,7 +104,7 @@ def create_app(test_config=None):
         'questions': current_questions,
         'total_questions': len(Question.query.all()),
         'categories': 'All Categories Selected',
-        'current_categories': category_names
+        'current_category': category_names
       })
 
 
